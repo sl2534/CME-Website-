@@ -1,0 +1,776 @@
+
+.hidden{
+    display: none !important;
+}
+
+
+ul li{
+    font-size: 20px;
+    font-weight: 200;
+}
+body{
+    margin: 0px;
+}
+
+
+#navbar li a:hover {
+    color:brown;
+
+}
+
+footer li a:hover {
+    color: black;
+}
+
+
+ul li a{
+    color: rgb(66, 66, 66);
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+  }
+
+.footer {
+    background-color:  brown;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+
+
+}
+
+footer ul li{
+    display: block;
+    display: inline-flex;
+    text-align: center;
+
+
+}
+
+footer ul li a{
+    margin-top:10px;
+    margin-right: 20px;
+    margin-left:20px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+
+
+
+}
+
+footer p {
+    color: white;
+    font-size: 16px;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+footer picture {
+    margin-top: 20px;
+}
+
+
+
+
+/* Homepage  */
+
+h1{
+    margin-left: 15%;
+    color: rgb(194, 10, 10);
+}
+
+
+.dddd {
+    font-size: 25px;
+}
+
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    font-size: 20px;
+    letter-spacing: 1.8px;
+    line-height: 32px;
+    width: 70%;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.goals{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    justify-content: space-between;
+    background-color: rgb(217, 212, 212);
+}
+
+.hands{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 30px;
+    flex-grow: 1;
+    width: 200px;
+}
+
+.hands p{
+    font-size: 20px;
+}
+
+.culture{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 200px;
+    margin: 30px;
+}
+.culture p{
+    font-size: 20px;
+}
+
+.entertainment {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-grow: 1;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 200px;
+    margin: 30px;
+}
+
+.entertainment p{
+    font-size: 20px;
+}
+
+
+.sponsors{
+
+    font-size: 35px;
+    text-align: center;
+    color: rgb(194, 10, 10);
+}
+
+.spons-pics {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.carousel {
+    width: 100%;
+    height: 350px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: brown;
+}
+
+.carousel-content {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    min-width: 500px;
+    max-width: 1000px;
+    text-align: center;
+    margin-left:auto;
+    margin-right: auto;
+
+}
+
+.carousel-button {
+    border: none;
+    background-color: white;
+    margin-left:50px;
+    margin-right: 50px;
+    font-size: 50px;
+    height: 250px;
+    background-color: brown;
+    color: white;
+}
+
+
+.carousel-button:hover {
+    color: grey;
+    opacity: 0.5;
+}
+
+.written-content {
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    letter-spacing: 1.8px;
+    line-height: 32px;
+    color: white;
+
+}
+
+.all-dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+}
+
+.dots {
+    border-radius: 50%;
+    width: 15px;
+    height:15px;
+    margin-left: 10px;
+}
+
+.dots:hover {
+    color: black;
+    opacity: 0.5;
+}
+
+.dotSelected {
+    background-color: grey;
+}
+
+
+/* End of Homepage  */
+
+/* Events Page  */
+.h22 {
+    font-size: 36px;
+    margin-top:30px;
+    color:brown;
+
+}
+
+.date {
+    font-size:28px;
+}
+
+.event-intro {
+    margin-left:15%;
+    margin-right:15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.event-intro p {
+    font-size:20px;
+}
+.event-all {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: rgb(248, 248, 248);
+}
+.event {
+    display:flex;
+    flex-direction:row;
+    gap:140px;
+    width:70%;
+    padding-bottom: 30px;
+    padding-top:30px;
+    border-bottom:solid lightgray;
+}
+.event-content {
+    display:flex;
+    flex-direction:column;
+    gap:0;
+}
+
+.event-content p {
+    font-size:18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height:28px;
+}
+
+.event-content img {
+    width:100%;
+    height:auto;
+}
+
+@media (max-width:900px) {
+
+    .event {
+        flex-direction: column;
+        gap:0;
+    }
+    .event-content figure {
+        margin-left:0;
+    }
+
+}
+
+/* End of Eventpage  */
+
+
+/* Team Page  */
+
+/* .name{
+font-size: 24px;
+}
+
+.position{
+font-size: 20px;
+} */
+
+.banner{
+    background-color: brown;
+    display: flex;
+    flex-direction:row;
+}
+
+.logo{
+    display:block;
+    width:60px;
+    height:auto;
+    margin-left: 20px;
+    margin-top:10px;
+}
+.nav {
+    background-color: rgb(227, 229, 229);
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    border-left: 1px solid rgb(0, 0, 0);
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0px;
+    padding:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.teamhead{
+    color: rgb(252, 252, 252);
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.retreat{
+    display: block;
+    width: 90%;
+    height:auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+    .profile{
+        display: block;
+        width: 150px;
+        cursor: pointer;
+    }
+
+    .eboard{
+        margin-top: 20px;
+        background-color: rgb(227, 229, 229);
+        margin: 30px;
+        padding:10px;
+        padding-top: 25px;
+    }
+
+    .h2{
+        font-size: 35px;
+        text-align:center;
+        margin-bottom: 40px;
+        color:rgb(153, 21, 21);
+        margin-right: 50px;
+    }
+
+
+    .member{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 140px;
+        margin-right: 130px;
+        margin-top:50px;
+        align-items: center;
+    }
+
+    .members{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 150px;
+        margin-right: 170px;
+        align-items: center;
+    }
+
+    .individual{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .individual:hover{
+        opacity: 50%;
+    }
+    .position{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+
+    .pos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+.icon{
+    display:block;
+    height: 120px;
+}
+
+
+.background{
+    position: fixed;
+    z-index: 101;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin:auto;
+}
+
+.board {
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 185px;
+    border: 1px solid;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.modal-content {
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.exit{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+
+.exit button {
+    font-size: 50px;
+    background-color: white;
+    border: none;
+    margin-bottom: -20px;
+}
+.exit button:hover{
+    color: rgb(152, 10, 10);
+}
+
+.info {
+    font-size: 20px;
+}
+
+.imageedit{
+    display:block;
+    width:300px;
+    height: auto;
+}
+/* End of Team page content */
+
+
+
+@media (max-width:1200px){
+
+    /* Home page content  */
+    .intro{
+        display: flex;
+        flex-direction: column;
+    }
+
+   .group {
+        display: flex;
+        justify-content: center;
+   }
+   /* End of homepage content  */
+}
+
+@media (max-width:900px) {
+
+    /* Home page content  */
+    .goals{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hands {
+        width: 100%;
+    }
+
+    .entertainment {
+        width: 100%;
+    }
+
+    .culture {
+        width: 100%;
+    }
+
+    .spons-pics{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+    /* End of Home page content */
+
+
+    /* Team Page Content  */
+    .member{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .members{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .position{
+        flex-direction: column;
+    }
+
+    .h2{
+        text-align:center;
+        margin-right: 0px;
+    }
+    /* End of team page content */
+}
+
+@media (max-width: 750px){
+    .carousel{
+        height: 450px;
+    }
+
+    .carousel-content {
+        height: 400px;
+    }
+
+}
+
+
+
+
+/* Applcations Page  */
+
+.recruitment {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+
+
+}
+
+.recruitment img {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.recruitment h2 {
+    font-size: 25px;
+}
+
+.recruitment1 {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217, 212, 212);
+    padding-right: 80px;
+    padding-left: 80px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+.recruitment1 p{
+    font-size: 23px;
+
+}
+
+.recruitment3 {
+
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(217, 212, 212);
+    padding-right: 80px;
+    padding-left: 80px;
+    margin: 10px;
+    padding-top: 20px;
+    padding-bottom: 32px;
+    margin-top: 20px;
+
+
+
+}
+
+.recruitment3 p{
+    font-size: 23px;
+
+}
+
+.recruitment2 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+
+}
+
+.recruitment ul li {
+    list-style-type: none;
+}
+
+
+@media (max-width: 1050px) {
+
+    .recruitment {
+        display: flex;
+        flex-direction: column;
+
+
+    }
+}
+
+
+@media (max-width: 850px) {
+
+
+    .modal-content {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .board {
+        width: 400px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .board-img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .info {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .exit button {
+        margin-bottom: 5px;
+    }
+}
+
+
+/* End of Applications  */
+
+/* For narrow screens */
+
+@media (max-width: 600px) {
+
+#wide-banner {
+    display: none;
+}
+
+#narrow-banner {
+    display: block;
+}
+
+.menu-icon {
+    display:block;
+    width:60px;
+    height:auto;
+    margin-right: 20px;
+    margin-top:10px;
+}
+
+.banner button {
+    border: brown;
+    background-color: brown;
+}
+
+.hamburger-nav {
+
+    background-color: rgb(227, 229, 229);
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    border-left: 1px solid rgb(0, 0, 0);
+    display : flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 0px;
+    padding:20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    }
+
+
+.hamburger-nav li {
+    margin-top: 10px;
+}
+
+#navbar {
+    display: none;
+}
+
+
+.carousel{
+    height: 650px;
+}
+
+.carousel-content {
+    height: 600px;
+}
+
+#hamburger-menu li a:hover {
+    color:brown;
+
+}
+}
